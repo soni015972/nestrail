@@ -2,8 +2,9 @@
     <footer>
       <div class="footer-grid">
         <div>
-          <div class="footer-brand-name">Wander<span>Lust</span></div>
-          <p class="footer-desc">Discover unique stays handpicked for curious travellers. Your next adventure starts here.</p>
+          <div class="footer-brand-name">Nest<span>rail</span></div>
+          <p class="footer-tagline" style="font-size:0.85rem;font-weight:600;color:var(--brand);margin-bottom:0.4rem;">Stays along your journey</p>
+          <p class="footer-desc">Discover unique stays handpicked for curious travellers. Find comfortable places to stay at every stop of your trip.</p>
         </div>
         <div class="footer-col">
           <h4>Explore</h4>
@@ -20,7 +21,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2024 <strong>WanderLust</strong> &nbsp;·&nbsp; Crafted with <i class="bi bi-heart-fill"></i> for travellers worldwide</p>
+        <p>&copy; 2024 <strong>Nestrail</strong> &nbsp;·&nbsp; Stays along your journey &nbsp;·&nbsp; Crafted with <i class="bi bi-heart-fill"></i> for travellers worldwide</p>
       </div>
     </footer>
 
@@ -48,10 +49,10 @@
       }
 
       // ---- Wishlist (localStorage) ----
-      const WL_KEY = 'wanderlust_wishlist';
+      const WL_KEY = 'nestrail_wishlist';
 
       function getWishlist() {
-        try { return JSON.parse(localStorage.getItem(WL_KEY) || '[]'); }
+        try { return JSON.parse(localStorage.getItem(WL_KEY) || localStorage.getItem('wanderlust_wishlist') || '[]'); }
         catch(e) { return []; }
       }
 

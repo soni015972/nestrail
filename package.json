@@ -1,7 +1,7 @@
 {
-  "name": "wanderlust",
+  "name": "nestrail",
   "version": "2.0.0",
-  "description": "WanderLust – A feature-rich travel listing application",
+  "description": "Nestrail: Stays along your journey – A feature-rich travel accommodation platform",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

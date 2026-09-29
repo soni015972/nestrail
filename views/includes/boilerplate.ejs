@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WanderLust – Find your next stay</title>
-    <meta name="description" content="Discover thousands of unique stays handpicked for curious travellers. Find your perfect getaway with WanderLust." />
+    <title>Nestrail – Stays along your journey</title>
+    <meta name="description" content="Nestrail: Stays along your journey. Find comfortable places to stay at every stop of your trip. Discover thousands of unique stays handpicked for curious travellers." />
+    <meta property="og:title" content="Nestrail – Stays along your journey" />
+    <meta property="og:description" content="Nestrail: Stays along your journey. Find comfortable places to stay at every stop of your trip." />
+    <meta property="og:site_name" content="Nestrail" />
+    <meta name="twitter:title" content="Nestrail – Stays along your journey" />
+    <meta name="twitter:description" content="Nestrail: Stays along your journey. Find comfortable places to stay at every stop of your trip." />
+    <link rel="manifest" href="/manifest.json" />
     <link rel="stylesheet" href="/css/style.css" />
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
@@ -34,7 +40,10 @@
     <!-- ========== NAVBAR ========== -->
     <nav class="navbar" style="position:sticky;top:0;z-index:200;">
       <div class="container" style="display:flex;align-items:center;justify-content:space-between;position:relative;">
-        <a class="navbar-brand" href="/listings">Wander<span>Lust</span></a>
+        <div style="display:flex;flex-direction:column;">
+          <a class="navbar-brand" href="/listings" style="line-height:1.2;">Nest<span>rail</span></a>
+          <span class="brand-tagline" style="font-size:0.72rem;color:var(--muted);letter-spacing:0.3px;margin-top:-2px;">Stays along your journey</span>
+        </div>
 
         <!-- Desktop nav -->
         <div class="desktop-nav" style="display:flex;align-items:center;gap:1.5rem;">

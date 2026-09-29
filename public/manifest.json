@@ -1,0 +1,10 @@
+{
+  "name": "Nestrail",
+  "short_name": "Nestrail",
+  "description": "Nestrail: Stays along your journey. Find comfortable places to stay at every stop of your trip.",
+  "start_url": "/listings",
+  "display": "standalone",
+  "background_color": "#F8F7F4",
+  "theme_color": "#E8603A",
+  "icons": []
+}

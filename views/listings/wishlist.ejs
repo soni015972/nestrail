@@ -29,10 +29,10 @@
   (function () {
     const grid = document.getElementById('wishlistGrid');
     const empty = document.getElementById('wishlistEmpty');
-    const WL_KEY = 'wanderlust_wishlist';
+    const WL_KEY = 'nestrail_wishlist';
 
     function getWishlist() {
-      try { return JSON.parse(localStorage.getItem(WL_KEY) || '[]'); }
+      try { return JSON.parse(localStorage.getItem(WL_KEY) || localStorage.getItem('wanderlust_wishlist') || '[]'); }
       catch (e) { return []; }
     }
 
