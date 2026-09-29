@@ -69,10 +69,10 @@ nestrail/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/soni015972/wanderlust.git
+git clone https://github.com/soni015972/nestrail.git
 
 # 2. Navigate into the project
-cd wanderlust
+cd nestrail
 
 # 3. Install dependencies
 npm install
